@@ -9,6 +9,7 @@ This autotrader implements the 'Ichimoku Cloud' strategy implementing four indic
 4. Chikou (price compared to the price 26 records ago)
 
 The autotrader behaves as follows:
+
 Buy:
 - Whenever the Tenkan-sen crosses the Kijun-sen from below to above while the market price is above the Ichimoku cloud.
 - And finally, the Chikou span’s last value must be higher than the corresponding market price in the same point in time.
